@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluation cases</title>
+    <link rel="icon" type="image/x-icon" href="../static/image/logo.gif">
+    <style>
+        body{
+            background: #eff1f0;
+            padding: 10px;
+        }
+        .table-box{
+            background: #fff;
+            width: 100%;
+
+        }
+        .table-box>div{
+            padding: 20px;
+        }
+        .header {
+            color: #909399;
+            font-weight: 500;
+            height: 44px;
+            line-height: 44px;
+            background: #EBEEF5;
+            border-bottom: 1px solid #EBEEF5;
+        }
+        table {
+            width: 100%;
+            border: 1px solid #EBEEF5;
+        }
+        .main td{
+            line-height: 18px;
+            font-size: 16px;
+            color: #53565a;
+            border-bottom: 1px solid #EBEEF5;
+            padding: 5px;
+        }
+        h3{
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <!-- {{ csrf }} -->
+        <div class="table-box">
+        <div>
+            <h3>终端列表</h3>
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr class="header">
+                    <th align="center" valign="middle">Agent</th>
+                    <th align="center" valign="middle">IP</th>
+                    <th align="center" valign="middle">采集域</th>
+                    <th align="center" valign="middle">状态</th>
+                    <th align="center" valign="middle">心跳时间</th>
+                </tr>
+                {% for obj in list %}
+                <tr class="main" style="border-bottom: 1px solid #EBEEF5;">
+                    <td align="center" valign="middle">{{ obj.hostName }}</td>
+                    <td align="center" valign="middle">{{ obj.hostIp }}</td>
+                    <td align="center" valign="middle">{{ obj.groupId }}</td>
+                    <td align="center" valign="middle">
+                        {% if obj.agentStatus == 1 %}
+                        <p>运行中</p>
+                        {% elif obj.agentStatus == 2 %}
+                        <p>停止</p>
+
+                        {% endif %}
+                        {# {{ obj.agentStatus }}#}
+                    </td>
+                    <td align="center" valign="middle">{{ obj.lastHbTime }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        </div>
+    </div>
+</body>
+<!-- <script src="jq"></script> -->
+<script>
+</script>
+</html>
