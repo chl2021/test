@@ -1,0 +1,30 @@
+
+HWeb:TableWithoutCaptionCheck2" Add a description to this table.(Œã½ÿ
+D	Web:S18272"/Remove this deprecated "cellspacing" attribute.(Œã½ÿ
+D	Web:S18272"/Remove this deprecated "cellpadding" attribute.(Œã½ÿ
+C	Web:S18274")Remove this deprecated "align" attribute.(Õ—·•şÿÿÿÿ
+D	Web:S18274"*Remove this deprecated "valign" attribute.(Õ—·•şÿÿÿÿ
+l Web:TableHeaderHasIdOrScopeCheck4";Add either an 'id' or a 'scope' attribute to this <th> tag.(Õ—·•şÿÿÿÿ
+C	Web:S18275")Remove this deprecated "align" attribute.( äÓÜøÿÿÿÿ
+D	Web:S18275"*Remove this deprecated "valign" attribute.( äÓÜøÿÿÿÿ
+l Web:TableHeaderHasIdOrScopeCheck5";Add either an 'id' or a 'scope' attribute to this <th> tag.( äÓÜøÿÿÿÿ
+C	Web:S18276")Remove this deprecated "align" attribute.(–¢¡ÿÿÿÿÿ
+D	Web:S18276"*Remove this deprecated "valign" attribute.(–¢¡ÿÿÿÿÿ
+l Web:TableHeaderHasIdOrScopeCheck6";Add either an 'id' or a 'scope' attribute to this <th> tag.(–¢¡ÿÿÿÿÿ
+>	Web:S18277")Remove this deprecated "align" attribute.(Æ¸˜ÿ
+?	Web:S18277"*Remove this deprecated "valign" attribute.(Æ¸˜ÿ
+g Web:TableHeaderHasIdOrScopeCheck7";Add either an 'id' or a 'scope' attribute to this <th> tag.(Æ¸˜ÿ
+C	Web:S18278")Remove this deprecated "align" attribute.(íá‰²ûÿÿÿÿ
+D	Web:S18278"*Remove this deprecated "valign" attribute.(íá‰²ûÿÿÿÿ
+l Web:TableHeaderHasIdOrScopeCheck8";Add either an 'id' or a 'scope' attribute to this <th> tag.(íá‰²ûÿÿÿÿ
+C	Web:S1827<")Remove this deprecated "align" attribute.(·ÓŒ‡ıÿÿÿÿ
+D	Web:S1827<"*Remove this deprecated "valign" attribute.(·ÓŒ‡ıÿÿÿÿ
+C	Web:S1827=")Remove this deprecated "align" attribute.(ÍÿÄøÿÿÿÿ
+D	Web:S1827="*Remove this deprecated "valign" attribute.(ÍÿÄøÿÿÿÿ
+C	Web:S1827>")Remove this deprecated "align" attribute.(­­»ûÿÿÿÿ
+D	Web:S1827>"*Remove this deprecated "valign" attribute.(­­»ûÿÿÿÿ
+C	Web:S1827?")Remove this deprecated "align" attribute.(ÎÅ¸„şÿÿÿÿ
+D	Web:S1827?"*Remove this deprecated "valign" attribute.(ÎÅ¸„şÿÿÿÿ
+>	Web:S1827H")Remove this deprecated "align" attribute.(›”üà
+?	Web:S1827H"*Remove this deprecated "valign" attribute.(›”üà
+IWeb:AvoidCommentedOutCodeCheckP"Remove this commented out code.(£¢Èş

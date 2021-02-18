@@ -18,5 +18,5 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-    url(r'^/t/test/$', views.login),
+    url(r'test', views.login),
 ]
