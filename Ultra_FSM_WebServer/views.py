@@ -12,7 +12,12 @@ def login(request):
 
 
 def show(request):
-    lst = api_get()
+    #     lst = api_get()
+    lst = [
+            {"hostName": "localhost", "hostIp": "192.168.95.67", "groupId": 1, "agentStatus": 1, "lastHbTime": ''},
+            {"hostName": "rbtnode1", "hostIp": "192.168.95.68", "groupId": 1, "agentStatus": 1, "lastHbTime": ''},
+            {"hostName": "rbtnode2", "hostIp": "192.168.95.69", "groupId": 1, "agentStatus": 1, "lastHbTime": ''},
+    ]
     for item in lst:
         ltime = item.get("lastHbTime") if item.get("lastHbTime") else int(time.time())*1000
         item['lastHbTime'] = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(int(ltime)/1000))

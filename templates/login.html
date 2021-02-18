@@ -9,7 +9,7 @@
     width: 100%;   
     height: 100%;   
     overflow: hidden;   
-    font-style: sans-serif;   
+    font-style: sans-serif;
 }   
 body{   
     width: 100%;   
@@ -96,9 +96,8 @@ p{
 <div id="root">
     <div id="login">
         <h1>Login</h1>
-        <form action={{ url }} method='post' id="form"  >
-            {% csrf_token %}
-            <input type="text" required="required" placeholder="验证码" name="u" id="pd"></input>
+        <form action={{ url }} method='post' id="form"  >{% csrf_token %}
+            <input type="text" required="required" placeholder="验证码" name="u" id="pd" />
             <p>{{ passwd }}</p>  
             <button class="but" type="submit" onclick=" return login()">登录</button>  
         </form> 
