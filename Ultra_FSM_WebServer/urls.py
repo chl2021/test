@@ -18,5 +18,6 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
+    url(r'show', views.show),
     url(r'', views.login),
 ]
