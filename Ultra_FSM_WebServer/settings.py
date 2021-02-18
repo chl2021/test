@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Ultra_FSM_WebServer.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/ultrapower/pythonweb/Ultra_FSM_WebServer/templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
