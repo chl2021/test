@@ -26,6 +26,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*", ]
 
+APP_ID = "test"
+APP_TOKEN = "ee8dbf22-45a2-4085-80b4-f312adecac88"
 
 # Application definition
 
