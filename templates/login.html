@@ -96,8 +96,8 @@ p{
 <div id="root">
     <div id="login">
         <h1>Login</h1>
-        {% csrf_token %}
         <form action={{ url }} method='post' id="form"  >
+            {% csrf_token %}
             <input type="text" required="required" placeholder="验证码" name="u" id="pd"></input>
             <p>{{ passwd }}</p>  
             <button class="but" type="submit" onclick=" return login()">登录</button>  
