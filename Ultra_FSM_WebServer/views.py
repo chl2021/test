@@ -19,7 +19,7 @@ def show(request):
             {"hostName": "rbtnode2", "hostIp": "192.168.95.69", "groupId": 1, "agentStatus": 1, "lastHbTime": ''},
     ]
     for item in lst:
-        ltime = item.get("lastHbTime") if item.get("lastHbTime") else int(time.time())*1000
+        ltime = item.get("lastHbTime") if item.get("lastHbTime") else int(time.time())*1000+28800000
         item['lastHbTime'] = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(int(ltime)/1000))
     context = {"list": lst}
     return render(request, 'show.html', context)
